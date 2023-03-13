@@ -20,8 +20,7 @@ function GetPartialSum(arr, num) {
     findCombinations(0, num, []);
     return result;
   }
-  
-  // Example usage
+
   const arr = [4, 2,5,9,12,8,6];
   const num = 18;
   const result = GetPartialSum(arr, num);
