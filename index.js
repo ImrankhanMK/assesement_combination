@@ -25,5 +25,5 @@ function GetPartialSumElements(arr, num) {
   const arr = [4, 2,5,9,12,8,6];
   const num = 18;
   const result = GetPartialSumElements(arr, num);
-  console.log(result); // output: [[4, 2, 12], [4, 5, 9]]
+  console.log(result);
   
