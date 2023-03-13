@@ -1,5 +1,5 @@
 console.log("hi")
-function GetPartialSumElements(arr, num) {
+function GetPartialSum(arr, num) {
     const result = [];
   
     const findCombinations = (start, target, partial) => {
@@ -24,6 +24,6 @@ function GetPartialSumElements(arr, num) {
   // Example usage
   const arr = [4, 2,5,9,12,8,6];
   const num = 18;
-  const result = GetPartialSumElements(arr, num);
+  const result = GetPartialSum(arr, num);
   console.log(result);
   
